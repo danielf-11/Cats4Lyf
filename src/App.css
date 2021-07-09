@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.Main{
+  font-family: 'Poppins', sans-serif;
+}
+
+.Title{
+  display: flex;
+  font-size: 90px;
+  justify-content: center;
+  padding: 2px;
+  
+}
+
+.Logo{
+  width: 11vh;
+  height: auto;
+  display: inline-block;
+  margin-left: 10vw;
+}
+
+.CatPic{
+  width: 40%;
+  height: auto; 
+}
+
+.navbar{
+  background-color: grey;
+  height: 11vh;
+}
+
+.container{
+  float: right;
+}
+
+.navbar-right{
+  list-style: none;
+  padding: 10px;
+  margin-right: 15vw;
+  text-decoration: none;
+}
+
+.menuItem{
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 25px;
+  list-style: none;
+  color: antiquewhite;
+}
+
+.menuItem:hover{
+  color:midnightblue;
+}
+
+.homePage{
+  text-align: center;
+}
+
+.shopPage{
+  text-align: center;
+}
+
+.product.Name{
+  font-size: 30px;
+}
+
+.product.Price{
+  font-size: 20px;
+}
+
+.addToCart{
+  margin: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.button{
+  padding: 10px;
+  font-size: 20px;
+
+}
